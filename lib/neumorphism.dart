@@ -30,12 +30,10 @@ class _NuemorphismState extends State<Nuemorphism> {
               boxShadow: [
                 BoxShadow(
                     inset: isPressed,
-                    blurRadius: blur,
                     offset: -distance,
                     color: Colors.white),
                 BoxShadow(
                     inset: isPressed,
-                    blurRadius: blur,
                     offset: distance,
                     color: Color(0xFFA7A9AF)),
               ],
