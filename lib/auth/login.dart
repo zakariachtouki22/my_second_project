@@ -60,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: 60.0,
                   ),
                   TextWidget(
-                    text: 'Welcome Back',
+                    text: 'Welcome Back!',
                     color: Colors.white,
                     textSize: 24,
                     isTitle: true,
