@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:grocery_app/auth/signup.dart';
 import 'package:grocery_app/consts/swiper.dart';
 import 'package:grocery_app/screen/btm_bar.dart';
-import 'package:grocery_app/screen/home_screen.dart';
 import 'package:grocery_app/services/global_methods.dart';
 import 'package:grocery_app/widgets/auth_button.dart';
 import 'package:grocery_app/widgets/google_button.dart';
@@ -60,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: 60.0,
                   ),
                   TextWidget(
-                    text: 'Welcome Back!',
+                    text: 'Welcome Back',
                     color: Colors.white,
                     textSize: 24,
                     isTitle: true,

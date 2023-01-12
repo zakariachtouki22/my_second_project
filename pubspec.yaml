@@ -40,7 +40,7 @@ dependencies:
   card_swiper: ^2.0.4
   fancy_shimmer_image: ^2.0.2
   badges: ^2.0.3
-
+  flutter_inset_box_shadow: ^1.0.8
 dev_dependencies:
   flutter_test:
     sdk: flutter

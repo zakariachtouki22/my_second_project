@@ -12,6 +12,7 @@ import 'package:provider/provider.dart';
 import 'auth/foget_password.dart';
 import 'auth/login.dart';
 import 'consts/feeds_screen.dart';
+import 'neumorphism.dart';
 
 void main() {
   runApp(MyApp());
@@ -51,7 +52,7 @@ class _MyAppState extends State<MyApp> {
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
           theme: Styles.themeData(themProvider.getDarkThem, context),
-          home: LoginScreen(),
+          home: Nuemorphism(),
           routes: {
             OnSaleScreen.routeName: (ctx) => OnSaleScreen(),
             FeedsScreen.routeName: (ctx) => FeedsScreen(),
